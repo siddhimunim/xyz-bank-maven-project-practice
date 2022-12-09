@@ -1,0 +1,15 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hvtha/xyz-bank-maven-proj/src/test/java/com/bank/testsuite/BankTest.java">
+        <classes>
+            <class name="com.bank.testsuite.BankTest">
+                <methods><include name="myTest"/>
+
+                    <include name="bankManagerShouldOpenAccountSuccessfully"/>
+                    <include name="customerShouldLoginAndLogoutSuceessfully"/>
+                    <include name="customerShouldDepositMoneySuccessfully"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
